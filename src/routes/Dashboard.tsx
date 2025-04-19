@@ -1,12 +1,15 @@
 import Button from "../components/common/Button";
 import "../App.css"
 import React from "react"
+import DashboardNavBar from "../components/layout/DashboardNavBar";
+import DashboardOptionsWindow from "../components/layout/DashboardOptionsWindow";
 function Dashboard()
 {
     return(
         <>
-            <div className="h-screen flex justify-center items-center bg-gradient-to-r from-[#426fda] to-[#1E293B] ">
-                <Button routeLocation="Editor" displayText="Editor" />
+            <div className="h-screen flex flex-col overflow-hidden">
+            <DashboardNavBar />
+            <DashboardOptionsWindow />
             </div>
         </>
     )
