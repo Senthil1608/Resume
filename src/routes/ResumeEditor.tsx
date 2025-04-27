@@ -1,12 +1,33 @@
-import "../App.css"
-import React from "react"
+import EditorNavbar from "../components/layout/EditorNavbar.tsx"
+import SectionBar from "../components/layout/Sectionbar.tsx"
+import ToolKit from "../components/layout/ToolKit.tsx"
+import Profile from "../components/layout/Profile.tsx"
+import PreviewPanel from "../components/layout/PreviewPanel.tsx"
+import ExecutiveSummary from "../components/layout/ExecutiveSummary.tsx"
+import EducationDetails from "../components/layout/EducationDetails.tsx"
+
+
 function ResumeEditor()
 {
     return(
         <>
-            <div className="h-screen flex justify-center items-center bg-gradient-to-r from-[#426fda] to-[#1E293B] ">
-                <h1>Editor Page</h1>
+            <EditorNavbar/>
+            <ToolKit/>
+            <div className="flex flex-row w-full"> 
+                <div className="w-{20%}">
+                <SectionBar/>
+                </div>
+                <div className="w-{25%}">
+                <Profile/>
+                <ExecutiveSummary/>
+                <EducationDetails/>
+                </div>
+                <div className="w-{35%}">
+                    <PreviewPanel/>
+                </div>
             </div>
+            
+            
         </>
     )
 }
