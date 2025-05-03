@@ -15,7 +15,7 @@ function SectionBar() {
   ];
 
   return (
-    <div className="p-4 items-center m-3 w-67 border-0 border-black rounded-lg">
+    <div className="p-4 items-center m-3 w-67 border-1 border-black rounded-lg">
       <h2 className="transform -translate-x-1 text-2xl text-blue-500 mb-4">
         Build Your Basement here!!
       </h2>
