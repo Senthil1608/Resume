@@ -20,7 +20,7 @@ function Profile() {
   const GithubcloseModal =()=> setGithubIsOpen(false);
 
   return (
-    <div className="w-[90%] bg-white border border-black rounded-lg p-6 m-3 relative">
+    <div className="w-[90%] bg-white border border-black rounded-lg p-6 ms-3 mt-3 mb-3 relative">
       <div className="flex justify-between items-center mb-3">
         <h1 className="text-3xl font-bold text-gray-800 flex items-center gap-2">
           <span className="text-2xl cursor-pointer">⋮⋮</span>

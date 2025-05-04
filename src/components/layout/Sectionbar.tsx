@@ -21,7 +21,7 @@ function SectionBar() {
       </h2>
 
       
-      <div className="max-h-[70vh] overflow-y-auto space-y-4 pr-1">
+      <div className="max-h-[70vh] overflow-y-hidden space-y-4 pr-1">
         {sections.map((section, index) => (
           <div key={index}>
             <button className="bg-white text-black text-xl w-56 flex justify-between p-2 cursor-pointer border-2 border-black">

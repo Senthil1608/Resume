@@ -72,8 +72,8 @@ function ToolKit() {
   
    
     <div className="flex items-center gap-3 ml-auto">
-    <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-0.5">Compile</button>
-      <button type="button" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-0.5">Covert Template</button>
+    <button type="button" className="text-white bg-black font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-0.5">Compile</button>
+      <button type="button" className="text-white bg-gradient-to-r from-gray-800 to-blue-600 hover:from-blue-700 hover:to-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-0.5">Covert Template</button>
       
     </div>
   </div>
