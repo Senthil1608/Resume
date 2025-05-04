@@ -3,7 +3,7 @@ import { CiCircleInfo } from "react-icons/ci";
 function ExecutiveSummary() {
   return (
     <>
-      <div className="w-[90%] bg-white border border-black rounded-md shadow-md p-6 m-3">
+      <div className="w-[90%] bg-white border border-black rounded-md shadow-md p-6 ms-3 mb-3">
         <div className="flex flex-row justify-between items-center space-x-4 mb-5">
           <h1 className="text-3xl font-bold text-grey-800 flex items-center gap-2">
             <span className="text-2xl cursor-pointer">⋮⋮</span><h4 className="text-[#1E293B]">Executive Summary</h4>

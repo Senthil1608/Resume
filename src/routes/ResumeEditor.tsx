@@ -11,18 +11,24 @@ function ResumeEditor()
 {
     return(
         <>
-            <EditorNavbar/>
+            <div className="fixed top-0 left-0 right-0 z-50">
+                <EditorNavbar/>
+            </div>
+
+            <div className="fixed top-[60px] left-0 right-0 z-45">
             <ToolKit/>
-            <div className="flex flex-row w-full"> 
-                <div className="w-{20%}">
+            </div>       
+            
+            <div className="flex flex-row w-full pt-[120px]"> 
+                <div className="fixed top-[120px] left-0 w-[25%] overflow-y-hidden">
                 <SectionBar/>
                 </div>
-                <div className="w-{25%}">
+                <div className="ml-[18%] w-[50%] h-[calc(100vh-120px)] overflow-y-auto ps-2">
                 <Profile/>
                 <ExecutiveSummary/>
                 <EducationDetails/>
                 </div>
-                <div className="w-{35%}">
+                <div className="fixed top-[130px] w-[25%] -right-[-80px] h-[calc(100vh-60px)] overflow-y-hidden">
                     <PreviewPanel/>
                 </div>
             </div>
