@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../App.css'
 //component to call button which help to navigate to a desired route
 interface Props{
@@ -10,10 +9,13 @@ function Button(props: Props){
 
    
     <>
-        <a href= {props.routeLocation} 
-        className="bg-green-600 text-2xl text-white p-2 px-4 border-2 border-black rounded-xl"  >
-            {props.displayText}
-        </a>
+
+<a
+  href={props.routeLocation}
+  className="block w-1/2 bg-gradient-to-r from-[#426fda] to-[#1E293B] text-white py-2 rounded-lg hover:opacity-90 transition text-center"
+>
+  {props.displayText}
+</a>
     </>
      )
 }

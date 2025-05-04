@@ -22,7 +22,7 @@ function EditorNavbar() {
                         onChange={(e) => setheading(e.target.value)}
                         onKeyDown={(e) => {
                             if (e.key === 'Enter') {
-                              e.target.blur(); 
+                            //   e.target.blur();  // to enable enter and shift focus ???
                              }
                         }}/>
                           

@@ -1,5 +1,6 @@
 import { RiAddBoxLine } from "react-icons/ri";
 import "../../App.css";
+import React from "react";
 
 function SectionBar() {
   const sections = [
