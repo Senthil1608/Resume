@@ -20,7 +20,7 @@ function ResumeEditor()
             </div>       
             
             <div className="flex flex-row w-full pt-[120px]"> 
-                <div className="fixed top-[120px] left-0 w-[25%] overflow-y-hidden">
+                <div className="fixed top-[120px] left-0 w-[20%] overflow-y-hidden">
                 <SectionBar/>
                 </div>
                 <div className="ml-[18%] w-[50%] h-[calc(100vh-120px)] overflow-y-auto ps-2">
